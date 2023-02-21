@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #222;
+
+}
+#nothing:hover{
+    cursor: pointer;
+}
+.design:hover{
+    color: rgb(37, 61, 155);
+    cursor: pointer;
+     /* box-shadow:
+        5px 3px rgba(243, 202, 238, 0.75),
+        10px 6px rgba(202, 130, 204, 0.871),
+        15px 9px rgba(228, 24, 163, 0.788);  */
+     /* opacity:.102;  */
+    background-color: rgb(109, 57, 251);
+    text-decoration: underline;    
+    
+}
+#chat-icon1:hover{
+  opacity: .7;
+
+}
