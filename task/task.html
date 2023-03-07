@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            p:hover{
+                cursor: pointer;
+            }
+            /* body{
+                
+            } */
+            div{
+                border-style: double;
+                border-color: blueviolet;
+            }
+            h2{
+                font-weight: bolder;
+                text-transform: uppercase;
+                color: blue;
+            }
+            h1{
+                text-decoration:underline;
+                font-family: emoji;
+            }
+            button{
+                background-color: rgb(209, 209, 241);
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div>
+            <center>
+        <h1>QUIZ</h1>
+        </center>
+        <h2>1.capital of india</h2>
+        <p onclick="green()" id="correct">A.new delhi</p>
+        <p onclick="red()" id="wrong">B.mumbai</p>
+        <p onclick="red1()" id="wrong1">c.chennai</p>
+        <pre>                                                    <button><a href="task1.html">next</a></button></pre>
+        
+    </div>
+      
+    <script>
+     function green(){
+        document.getElementById("correct").style.backgroundColor="#60d860";
+        
+
+     }
+     function red(){
+        document.getElementById("wrong").style.backgroundColor="#dc6c6c";
+        
+     }
+     function red1(){
+        document.getElementById("wrong1").style.backgroundColor="#dc6c6c";
+
+     }
+     
+     
+
+    </script>
+    </body>
+</html>
